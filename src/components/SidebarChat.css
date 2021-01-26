@@ -17,6 +17,12 @@
   width: 100%;
 }
 
+.sidebarChat__info > p {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .sidebarChat__info > small {
   position: absolute;
   top: 5px;

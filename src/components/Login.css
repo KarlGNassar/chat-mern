@@ -1,8 +1,8 @@
 .login {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25vh;
 }
 
 .login > div > img {
@@ -14,7 +14,8 @@
   width: 300px;
   background-color: #3ea4fb;
   color: #eff2f5;
-  font-weight: 800;
+  font-weight: 700;
+  margin-top: 2vh;
 }
 
 .login > button:hover {

@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "./App.css";
 import { selectUser, login, logout } from "./features/userSlice";
-import Imessage from "./Imessage";
-import Login from "./Login";
+import Imessage from "./components/Imessage";
+import Login from "./components/Login";
 import { auth } from "./firebase";
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
         dispatch(logout());
       }
     });
-  }, []);
+  }, [dispatch]);
 
   return <div className="app">{user ? <Imessage /> : <Login />}</div>;
 }
