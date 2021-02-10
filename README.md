@@ -22,7 +22,7 @@
 
 ## Features
 
-Saw a tutorial on youtube doing a chat with firestore (firebase's real time db) and wanted to try it out with the MERN stack with the help of Puhser.
+Saw a tutorial on youtube doing a chat with firestore (firebase's real time db) and wanted to try it out with the MERN stack with the help of Puhser..
 
 ## How To Use
 
