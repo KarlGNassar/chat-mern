@@ -1,68 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<h1 align="center">Chat App</h1>
 
-## Available Scripts
+<div align="center">
+  <h3>
+    <a href="https://chat-mern-ae2c1.firebaseapp.com/">
+      Demo
+    </a>
+  </h3>
+</div>
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Built With
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [React](https://reactjs.org/)
+- [MongoDB](https://www.mongodb.com/3)
+- [Express](https://expressjs.com/)
+- [Nodejs](https://nodejs.org/en/)
+- [Pusher](https://pusher.com/)
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Saw a tutorial on youtube doing a chat with firestore (firebase's real time db) and wanted to try it out with the MERN stack with the help of Puhser.
 
-### `npm run build`
+## How To Use
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+# Clone this repository
+$ git clone https://github.com/KarlGNassar/Covid-Tracker
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+$ npm install
 
-### `npm run eject`
+# Run the app
+$ npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contact
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Website [your-website.com](https://{your-web-site-link})
+- GitHub [@KarlGNassar](https://{github.com/KarlGNassar})
+- Twitter [@karlnassar1](https://{instagram.com/karlnassar1})
